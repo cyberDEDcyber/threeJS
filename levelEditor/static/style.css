@@ -1,0 +1,79 @@
+#control{
+    float: left;
+    text-align: center;
+    width: 10vw;
+    background: grey;
+    height: 100vh;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+#control2{
+    position: absolute;
+    left: 0;
+    text-align: center;
+    width: 13vw;
+    background: grey;
+    height: 100vh;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+#control >button{
+    width: 9vw;
+    height: 5vh;
+    margin: 3px;
+}
+#control2 >button{
+    width: 9vw;
+    height: 5vh;
+    margin: 3px;
+}
+a >button{
+    width: 9vw;
+    height: 5vh;
+    margin: 3px;
+    color:red;
+}
+#control >select{
+    width: 9vw;
+    height: 5vh;
+    margin: 3px;
+}
+#table{
+    float: left;
+    text-align: center;
+    width: 25vw;
+    background: white;
+    height: 100vh;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+#table2{
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 25vw;
+    background: white;
+    height: 100vh;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+#main{
+    float: left;
+    width: 60vw;
+    height: 100vh;
+    position: relative;
+    background: lightblue;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.hex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("/hex.png") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    color: white;
+}
